@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Admission Form </h1>
+    <form action="/form.php" method="get">
+        <fieldset>
+            <legend>Basic information</legend>
+            <label>Full name <input type="text" placeholder="enter full name"></label><br /><br />
+            <label>Email <input type="email" placeholder="enter email"></label><br /><br />
+            <label>password <input type="password" placeholder="enter password"></label><br /><br />
+            <label>file upload <input type="file"></label><br /><br />
+            <label>Qualification
+                <input type="checkbox" name="qual" value="high-school" /><span>High School</span>
+                <input type="checkbox" name="qual" value="Intermediate"><span>Intermediate</span>
+                <input type="checkbox" name="qual" value="Graduation"><span>Graduation</span>
+            </label><br /><br />
+            <label>Gender
+                <input type="radio" name="gender" value="male" /><span>Male</span>
+                <input type="radio" name="gender" value="female" /><span>Female</span>
+            </label><br /><br />
+            <label>Select Course
+                <select>
+                    <option value="bca">BCA</option>
+                    <option value="bsc">BSc</option>
+                    <option value="bcom">Bcom</option>
+                </select>
+            </label><br /><br />
+
+            <input type="submit">
+            <input type="reset">
+            <button type="submit">Submit form</button>
+
+
+
+        </fieldset>
+
+        <table border="2" cellspacing="0" cellpadding="10">
+            <tr>
+                <td>Full Name</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>enter your address</td>
+                <td><input type="text"></td>
+            </tr>
+        </table>
+
+    </form>
+</body>
+
+</html>
