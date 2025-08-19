@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* universal selector */
+
+        * {
+            color: red;
+        }
+
+        /* Element /tag selector  */
+        h1 {
+            color: lime;
+        }
+
+        /* Class*/
+        .test {
+            background-color: magenta;
+            font-size: 32px;
+        }
+
+        /* id  */
+        #para {
+            font-size: 50px;
+        }
+
+        /* Grouping selector */
+        h1,
+        h3,
+        div {
+            color: red
+        }
+
+
+        /* descendent selector */
+        div p {
+            color: lime;
+        }
+
+        /*child selector  */
+
+        div>h1 {
+            color: blue;
+        }
+
+        /* Adjacent sibling selector */
+        span+div {
+            text-decoration: underline;
+        }
+
+        /* General sibling selector */
+        span~div {
+            border: 3px solid red;
+        }
+
+
+        /* Attribute selector */
+        input[type="email"] {
+            border: 2px solid red;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <h1>hello world</h1>
+    <p style="font-size: 72px;" id="para" class="test">paragraph</p>
+    <h3>heading</h3>
+    <h4>heading 4</h4> -->
+
+    <!-- <h1 class="test">hello world 2</h1>
+
+    <div class="test">class</div>
+
+    <div>
+        <h1>head1</h1>
+        <span>
+            <h1>head 2</h1>
+            <p>div para</p>
+        </span>
+
+    </div>
+    <div>span divi</div>
+    <span>sibling1</span>
+    <h1>span head</h1>
+    <div>sibling2</div>
+    <div>sibling3</div> -->
+
+
+    <!-- External page -->
+    <iframe src="https://www.wikipedia.org/" width="200px" height="200px" frameborder="1"></iframe>
+
+    <!-- Video embeding -->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/hjUNei4oSXc?si=ig20lf2moZM4pCkB" frameborder="0"
+        allowfullscreen></iframe>
+
+    <!-- Map embeding -->
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d117309.12574887651!2d77.38471906189814!3d23.24635536895998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1staj%20mahal!5e0!3m2!1sen!2sin!4v1755627776352!5m2!1sen!2sin"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+</body>
+
+</html>
