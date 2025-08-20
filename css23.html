@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border properties</title>
+    <style>
+        #div1,
+        #div2,
+        #div3 {
+            width: 200px;
+            height: 200px;
+            background-color: lime;
+        }
+
+        /* normal border */
+        #div1 {
+            border-style: dotted;
+            border-width: 10px;
+            border-color: red;
+            margin: 10px 0;
+        }
+
+        /* shorthand property */
+        #div2 {
+            border: 15px double blue;
+            border-radius: 50%;
+        }
+
+        /* Border from specific sides (shorthand) */
+        #div3 {
+            border-top: 20px ridge magenta;
+            border-left: 14px groove salmon;
+            border-right: 10px solid blue;
+            border-bottom: 22px dashed yellow
+        }
+    </style>
+</head>
+
+
+<body>
+    <h1>Border properties</h1>
+
+    <div id="div2">
+        hello world
+    </div>
+    <div id="div1">
+        hello world
+    </div>
+    <div id="div3">
+        hello world
+    </div>
+</body>
+
+</html>
