@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #div1,
+        #div2 {
+            width: 100px;
+            height: 100px;
+
+        }
+
+        #div1 {
+            background-color: red;
+        }
+
+        #div2 {
+            background-color: lime;
+        }
+
+        .container {
+            background-color: magenta;
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: nowrap;
+        }
+
+        #div1 {
+            font-size: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <h1>Flex box</h1>
+    <div class="container">
+        <div id="div1">1</div>
+        <div id="div2">2</div>
+        <div id="div1">1</div>
+        <div id="div2">2</div>
+        <div id="div1">1</div>
+        <div id="div2">2</div>
+    </div>
+</body>
+
+</html>
