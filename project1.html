@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #result-head {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Calculator </h1>
+    <label>Num1 <input type="text" id="num1"></label><br /><br />
+    <label>Num2 <input type="text" id="num2"></label><br /><br />
+    <label>Select Operator
+        <select id="operator">
+            <option value="+">Addition</option>
+            <option value="-">Subtraction</option>
+            <option value="*">Multiplication</option>
+            <option value="/">Division</option>
+        </select>
+    </label><br /><br />
+    <button onclick="calculate()">Calculate</button>
+    <button onclick="reset()">Reset</button>
+
+    <h1 id="result-head">Result :<span id="result"></span></h1>
+    <script src="./project1.js"></script>
+</body>
+
+</html>
