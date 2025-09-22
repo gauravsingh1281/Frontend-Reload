@@ -1,22 +1,68 @@
 
+const item = document.getElementById("menu");
 
-let countResult = document.getElementById("count");
-let incBtn = document.getElementById("increment");
-let decBtn = document.getElementById("decrement");
-let count = 0;
-
-
-const increment = () => {
-    count += 5;
-    countResult.textContent = count;
-}
-const decrement = () => {
-    count--;
-    countResult.textContent = count;
-}
-
-incBtn.addEventListener("click", increment);
-decBtn.addEventListener("click", decrement);
+item.addEventListener("click", (e) => {
+    if (e.target.tagName === "LI") {
+        console.log(`clicked ${e.target.textContent}`)
+    }
+})
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// document.addEventListener("click", (e) => {
+//     console.log("Document capturing");
+// }, { capture: true });
+
+// grandParent.addEventListener("click", (e) => {
+//     console.log("GrandParent capturing");
+// }, { capture: true });
+
+// parent.addEventListener("click", (e) => {
+//     console.log("Parent capturing");
+// }, { capture: true });
+
+// child.addEventListener("click", (e) => {
+//     console.log("Child capturing");
+// }, { capture: true });
+// document.addEventListener("click", (e) => {
+//     console.log("Document bubbling");
+// }, { capture: false });
+
+// grandParent.addEventListener("click", (e) => {
+//     console.log("GrandParent bubbling");
+// }, { capture: false });
+
+// parent.addEventListener("click", (e) => {
+//     console.log("Parent bubbling");
+// }, { capture: false });
+
+// child.addEventListener("click", (e) => {
+//     console.log("Child bubbling");
+// }, { capture: false });
